@@ -1,0 +1,123 @@
+#progressBarContainer{
+    transform: rotate(180deg);
+}
+
+body{
+    background-color: #fff;
+    color: black;
+}
+
+
+
+/* ========================= Container Styling ================= */
+
+.container{
+    display: grid;
+    justify-content: space-around;
+    border: 2px solid white;
+    border-radius: 20px;
+    box-shadow: rgba(44, 187, 99, .2) 0 -25px 18px -14px inset,rgba(44, 187, 99, .15) 0 1px 2px,rgba(44, 187, 99, .15) 0 2px 4px,rgba(44, 187, 99, .15) 0 4px 8px,rgba(44, 187, 99, .15) 0 8px 16px,rgba(44, 187, 99, .15) 0 16px 32px;
+    width: 80%;
+    margin: auto;
+
+}
+
+#content{
+    line-height: 1.5rem;
+}
+
+#clock{
+    padding: 1rem 0;
+}
+
+#progressBarContainer{
+    width: 50%;
+    margin: auto;
+}
+
+h2{
+    font-family: CerebriSans-Regular,-apple-system,system-ui,Roboto,sans-serif;
+    font-weight: lighter;
+}
+
+.selector{
+    padding: 8px;
+    border: 1px solid white;
+    border-radius: 5rem;
+    box-shadow: rgba(44, 187, 99, .2) 0 -25px 18px -14px inset,rgba(44, 187, 99, .15) 0 1px 2px,rgba(44, 187, 99, .15) 0 2px 4px,rgba(44, 187, 99, .15) 0 4px 8px,rgba(44, 187, 99, .15) 0 8px 16px,rgba(44, 187, 99, .15) 0 16px 32px;
+    font-family: CerebriSans-Regular,-apple-system,system-ui,Roboto,sans-serif;
+    background-color: green;
+    color: white;
+    padding: .8rem 1.4rem .9rem .8rem;
+    appearance: none;
+    gap: 2.5rem;
+}
+
+h2,p{
+    text-align: center;
+}
+
+#clock{
+    width: 50%;
+    margin: auto;
+}
+
+.selector:hover{
+    box-shadow: none;
+}
+
+.buttonSection{
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 0;
+    
+}
+
+
+/* =============== Button Styling ======== */
+
+.roundButton {
+  background-color: #c2fbd7;
+  border-radius: 100px;
+  box-shadow: rgba(44, 187, 99, .2) 0 -25px 18px -14px inset,rgba(44, 187, 99, .15) 0 1px 2px,rgba(44, 187, 99, .15) 0 2px 4px,rgba(44, 187, 99, .15) 0 4px 8px,rgba(44, 187, 99, .15) 0 8px 16px,rgba(44, 187, 99, .15) 0 16px 32px;
+  color: green;
+  cursor: pointer;
+  display: inline-block;
+  font-family: CerebriSans-Regular,-apple-system,system-ui,Roboto,sans-serif;
+  padding: 7px 20px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 250ms;
+  border: 0;
+  font-size: 16px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.roundButton:hover {
+  box-shadow: rgba(44,187,99,.35) 0 -25px 18px -14px inset,rgba(44,187,99,.25) 0 1px 2px,rgba(44,187,99,.25) 0 2px 4px,rgba(44,187,99,.25) 0 4px 8px,rgba(44,187,99,.25) 0 8px 16px,rgba(44,187,99,.25) 0 16px 32px;
+  transform: scale(1.05) rotate(-3deg);
+}
+
+
+/*=========================== Meadia quiries ======================= */
+
+@media screen and (min-width: 768px) {
+    .container {
+        width: 60%;
+    }
+  }
+
+  @media screen and (min-width: 1024px) {
+    .container {
+        width: 40%;
+    }
+  }
+
+  @media screen and (min-width: 1440px) {
+    .container {
+        width: 30%;
+    }
+
+  }
